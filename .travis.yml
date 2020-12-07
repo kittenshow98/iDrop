@@ -1,7 +1,6 @@
 language: java
 jdk：
   -  openjdk9
-sudo: false
-
+install: cd iDrop && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 
 
