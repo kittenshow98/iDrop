@@ -1,6 +1,6 @@
 language: java
 
-jdk：
+jdk:
   -  openjdk9
 
 install: cd iDrop && mvn install 
