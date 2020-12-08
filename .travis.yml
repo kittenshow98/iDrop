@@ -5,6 +5,10 @@ jdk：
 
 install: cd iDrop && mvn install 
 
+branches:
+    only:
+        - master
+
 
 
 
